@@ -1,4 +1,4 @@
-# Stepik_6.3
+# LAB6.3
 - Docker run postgres
 ```sh
 docker run -d --name postgres -p 5432:5432 -v "D:\Studia\Ćwiczenia\Backend\lab6zad3\lab6zad3\database":/docker-entrypoint-initdb.d -v pg-data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres postgres:11.5-alpine
